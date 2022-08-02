@@ -5,7 +5,11 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    //  "strict": true  -- es por defecto
+    /* Lo dejamos en false para que podamos
+    crear variables en nuestra clase modelo y evitar
+    esos pequeños errores. */
+    "strict": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
