@@ -30,7 +30,7 @@ export class ShowComponent implements OnInit {
               ...(e.payload.doc.data() as Post)
             };
         });
-        console.log(this.Posts)
+     //   console.log(this.Posts)
     });
   }
     deleteRow =(post) => this.postService.deletePost(post);
